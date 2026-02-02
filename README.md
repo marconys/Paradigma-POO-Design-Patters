@@ -129,3 +129,95 @@ Aplicar os princípios do **SOLID** ajuda a:
 - Facilitar testes
 - Tornar o código mais flexível e sustentável a longo prazo
 
+# 🧩 Padrões de Projeto (Design Patterns)
+
+Os **Padrões de Projeto** são soluções reutilizáveis para problemas recorrentes no design de software.  
+Eles não são códigos prontos, mas **modelos de solução**.
+
+Os padrões são divididos em **três categorias principais**:
+
+- **Criacionais**
+- **Estruturais**
+- **Comportamentais**
+
+---
+
+## 🏗️ Padrões Criacionais (Creational)
+
+Focados na **forma como os objetos são criados**, evitando acoplamento direto com implementações concretas.
+
+### Principais padrões criacionais:
+- Factory Method
+- Abstract Factory
+- Builder
+- Singleton
+- Prototype
+
+📌 **Quando usar:**  
+Quando a criação de objetos é complexa ou deve ser controlada.
+
+📌 **Exemplo:**  
+Uma `Factory` decide se deve criar um objeto `PagamentoPix`, `PagamentoCartao` ou `PagamentoBoleto`  
+sem que o código cliente saiba os detalhes.
+
+---
+
+## 🧱 Padrões Estruturais (Structural)
+
+Tratam da **composição de classes e objetos**, facilitando a construção de estruturas flexíveis e reutilizáveis.
+
+### Principais padrões estruturais:
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+📌 **Quando usar:**  
+Quando é necessário integrar sistemas diferentes ou organizar melhor objetos complexos.
+
+📌 **Exemplo:**  
+Um `Adapter` permite que um sistema novo utilize uma biblioteca antiga  
+sem alterar seu código.
+
+---
+
+## 🔄 Padrões Comportamentais (Behavioral)
+
+Focados na **comunicação e interação entre objetos**, distribuindo responsabilidades de forma eficiente.
+
+### Principais padrões comportamentais:
+- Strategy
+- Observer
+- Command
+- State
+- Template Method
+- Chain of Responsibility
+- Iterator
+- Mediator
+- Memento
+- Visitor
+
+📌 **Quando usar:**  
+Quando o comportamento do sistema muda de acordo com o contexto  
+ou quando regras precisam ser desacopladas.
+
+📌 **Exemplo:**  
+Com o padrão `Strategy`, é possível trocar o algoritmo de cálculo de frete  
+sem alterar o código principal.
+
+---
+
+## 📌 Conclusão
+
+Os **Padrões de Projeto** ajudam a:
+
+- Resolver problemas comuns de design
+- Reduzir acoplamento
+- Aumentar reutilização de código
+- Facilitar manutenção e evolução do sistema
+
+Eles funcionam muito bem quando combinados com os princípios do **SOLID**.
+
